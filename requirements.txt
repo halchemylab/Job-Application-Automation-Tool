@@ -1,0 +1,9 @@
+streamlit          # For the frontend
+twilio             # For SMS notifications
+pandas             # For managing the CSV tracker
+python-docx        # For handling Word document templates
+spacy              # For NLP processing
+schedule           # For follow-up scheduling
+openpyxl           # For working with Excel files (if needed)
+pathlib            # For file management
+os                 # For directory operations
