@@ -78,7 +78,7 @@ def save_application_files(company_name, job_title, job_description, replacement
 # Example usage
 if __name__ == "__main__":
     # Example data
-    company_name = "Awesome Tech"
+    company_name = "Awesome Company"
     job_title = "Data Scientist"
     job_description = "Analyze and interpret complex data to help decision-making."
 
