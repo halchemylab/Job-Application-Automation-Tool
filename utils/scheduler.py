@@ -5,7 +5,7 @@ from utils.notification import send_sms_notification
 from utils.tracker import get_tracker_data
 
 # Constants
-NOTIFICATION_PHONE_NUMBER = "+1234567890"  # Replace with your phone number
+NOTIFICATION_PHONE_NUMBER = "+17816986521"  # Replace with your phone number
 
 
 def send_follow_up_reminders():
