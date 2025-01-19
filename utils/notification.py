@@ -35,8 +35,8 @@ def send_sms_notification(to_phone_number, message):
 # Example usage
 if __name__ == "__main__":
     # Example data
-    recipient_phone = "+1234567890"  # Replace with a valid phone number
-    reminder_message = "Reminder: Follow up with Awesome Tech for Data Scientist position applied on 2025-01-16."
+    recipient_phone = "+17816986521"  # Replace with a valid phone number
+    reminder_message = "Reminder: Follow up with Awesome Company for Data Scientist position applied on 2025-01-16."
 
     # Send the SMS
     send_sms_notification(recipient_phone, reminder_message)
