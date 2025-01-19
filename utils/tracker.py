@@ -16,7 +16,7 @@ TRACKER_COLUMNS = [
     "Follow-Up Date",
     "Job Description URL",
     "Status",
-    "Feedback"
+    "Notes/Feedback"
 ]
 
 def initialize_tracker():
@@ -98,7 +98,7 @@ if __name__ == "__main__":
     # Add a new application
     add_application(
         date_applied="2025-01-16",
-        company_name="Awesome Tech",
+        company_name="Awesome Company",
         job_title="Data Scientist",
         follow_up_date="2025-01-23",
         job_desc_url="https://example.com/job/data-scientist"
@@ -106,7 +106,7 @@ if __name__ == "__main__":
 
     # Update the application
     update_application(
-        company_name="Awesome Tech",
+        company_name="Awesome Company",
         job_title="Data Scientist",
         updates={"Status": "Interview Scheduled", "Feedback": "Interview on 2025-01-20."}
     )
